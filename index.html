@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selamat Ulang Tahun Ayu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(#ffdde1, #ee9ca7);
+      overflow: hidden;
+    }
+
+    .container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      animation: fadeIn 2s ease-in-out;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+
+    .slide {
+      animation: slideUp 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+
+    @keyframes slideUp {
+      0% {transform: translateY(50px); opacity: 0;}
+      100% {transform: translateY(0); opacity: 1;}
+    }
+
+    .music {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <audio class="music" autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mp3">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <div class="container slide">
+    <h1>🎉 Selamat Ulang Tahun Ayu Diah Eko Pertiwi 🎉</h1>
+    <p>10 Juli, hari istimewa untuk seseorang yang luar biasa.</p>
+    <p>Semoga cinta, tawa, dan kebahagiaan selalu menyertaimu.</p>
+    <p><em>Yang umure SMN wes nambah 1 neh lo ya SMN kudu tetep semangat opo ae. 
+    Ya mugo ae nambahe umure SMN ndadekno nambah apike, kesehatan, rejekine, lan diparingi kabegjan sing langgeng. ❤️</em></p>
+    <p>Terima kasih telah menjadi bagian dari hidup yang sangat berarti.</p>
+  </div>
+</body>
+</html>
